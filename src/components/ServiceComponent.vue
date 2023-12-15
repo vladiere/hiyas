@@ -8,7 +8,7 @@
         <div :class="Platform.is.mobile ? 'q-ml-md column' : 'q-ml-xl column'">
           <span class="text-h6">Todo List App</span>
           <span class="text-subtitle1">A minimal todo list application using VUEjs</span>
-          <q-btn outline color="secondary" class="self-start" padding="2px 25px" label="explore" />
+          <q-btn outline color="secondary" class="self-start" padding="2px 25px" label="explore" to="/todo_list"/>
         </div>
 
         <div :class="Platform.is.mobile ? 'q-ml-md column' : 'q-ml-xl column'">
