@@ -1,5 +1,5 @@
 <template>
-  <div class="window-height column q-px-xl justify-center bg-dark text-white">
+  <div :class="Platform.is.mobile ? 'column q-px-md text-center justify-center bg-dark text-white q-pb-xl' : 'window-height column q-px-xl justify-center bg-dark text-white'">
     <div class="q-pt-md text-h1 row q-mb-xl q-gutter-x-xs text-weight-bolder">
       <span>About</span>
       <span class="text-secondary">Me</span>
@@ -10,4 +10,5 @@
 </template>
 
 <script setup>
+import { Platform } from 'quasar';
 </script>
